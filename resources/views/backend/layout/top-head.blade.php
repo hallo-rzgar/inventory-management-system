@@ -51,7 +51,7 @@
 
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="<?php echo asset('css/custom-'.$general_setting->theme) ?>" type="text/css" id="custom-style">
-    @if( Config::get('app.locale') == 'ar' || $general_setting->is_rtl)
+    @if( Config::get('app.locale') == 'ku' ||  Config::get('app.locale') == 'ar'  || $general_setting->is_rtl)
       <!-- RTL css -->
       <link rel="stylesheet" href="<?php echo asset('vendor/bootstrap/css/bootstrap-rtl.min.css') ?>" type="text/css">
       <link rel="stylesheet" href="<?php echo asset('css/custom-rtl.css') ?>" type="text/css" id="custom-style">
@@ -335,7 +335,7 @@
     </script>
     <script type="text/javascript" src="<?php echo asset('vendor/jquery-validation/jquery.validate.min.js') ?>"></script>
     <script type="text/javascript" src="<?php echo asset('vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js')?>"></script>
-    @if( Config::get('app.locale') == 'ar' || $general_setting->is_rtl)
+    @if( Config::get('app.locale') == 'ku' || $general_setting->is_rtl)
       <script type="text/javascript" src="<?php echo asset('js/front_rtl.js') ?>"></script>
     @else
       <script type="text/javascript" src="<?php echo asset('js/front.js') ?>"></script>

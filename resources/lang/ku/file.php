@@ -1,4 +1,4 @@
-<?php 
+<?php
 return [
 	"dashboard" => "Tablero",
 	"language" => "Idioma",
@@ -92,7 +92,7 @@ return [
 	"Download Sample File" => "Descargar archivo de muestra",
 	"Sample File" => "Archivo de muestra",
 	"Download" => "Descargar",
-	"The correct column order is" => "El orden correcto de la columna es",
+	"The correct column order is" => "El orden correcto de la columna ku",
 	"and you must follow this" => "y debes seguir esto",
 	"All columns are required" => "Todas las columnas son obligatorias",
 	"Biller" => "Biller",
@@ -440,7 +440,7 @@ return [
 	"Image name must be same as product name" =>  "El nombre de la imagen debe ser igual al nombre del producto",
 	"Paying Amount" => "Cantidad de pago",
 	"Payable Amount" => "Cantidad a pagar",
-	"Change" => "Cambio",	
+	"Change" => "Cambio",
 	"Back" => "Espalda",
 	"Role Permission" => "Permiso de rol",
 	"Exclusive: Poduct price = Actual product price + Tax. Inclusive: Actual product price = Product price - Tax" => "Exclusivo: precio del producto = precio real del producto + impuestos. Incluido: Precio real del producto = Precio del producto - Impuestos.",
@@ -467,7 +467,7 @@ return [
 	"Update Payroll" => "Actualizar Nómina",
 	"Method" => "Método",
 	"Sale Return" => "Venta de devolución",
-	"Purchase Return" => "Devolución de compra",	
+	"Purchase Return" => "Devolución de compra",
 	"Net Sale Return" => "Retorno de venta neto,",
 	"Net Purchase Return" => "Devolución de compra neta,",
 	"Attendance" => "Asistencia",

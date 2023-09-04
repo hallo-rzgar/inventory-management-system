@@ -54,7 +54,7 @@
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="<?php echo asset('css/custom-'.$general_setting->theme) ?>" type="text/css" id="custom-style">
 
-    @if( Config::get('app.locale') == 'ar' || $general_setting->is_rtl)
+    @if(Config::get('app.locale') == 'ku' || Config::get('app.locale') == 'ar' || $general_setting->is_rtl)
       <!-- RTL css -->
       <link rel="stylesheet" href="<?php echo asset('vendor/bootstrap/css/bootstrap-rtl.min.css') ?>" type="text/css">
       <link rel="stylesheet" href="<?php echo asset('css/custom-rtl.css') ?>" type="text/css" id="custom-style">
@@ -1144,7 +1144,7 @@
                         <a href="{{ url('language_switch/en') }}" class="btn btn-link"> English</a>
                         </li>
                         <li>
-                        <a href="{{ url('language_switch/es') }}" class="btn btn-link"> kurdish</a>
+                        <a href="{{ url('language_switch/ku') }}" class="btn btn-link"> kurdish</a>
                         </li>
                         <li>
                         <a href="{{ url('language_switch/ar') }}" class="btn btn-link"> عربى</a>
@@ -1548,7 +1548,7 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col-sm-12">
-              <p>&copy; {{$general_setting->site_title}} | {{trans('file.Developed')}} {{trans('file.By')}} <span class="external">{{$general_setting->developed_by}}</span> | V 3.8</p>
+              <p>&copy; {{$general_setting->site_title}} | {{trans('file.Developed')}} {{trans('file.By')}} <span class="external">{{$general_setting->developed_by}}</span></p>
             </div>
           </div>
         </div>
